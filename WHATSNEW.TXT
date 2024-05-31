@@ -21,9 +21,9 @@ New features in BBC BASIC (Z80) version 5.00, May 2024:
 2.3  REPORT$
 2.4  Binary constants
 2.5  LEFT$ & RIGHT$ with last parameter omitted
-2.6  MOD(array)
-2.7  SUM(array)
-2.8  SUMLEN(array)
+2.6  MOD(array())
+2.7  SUM(array())
+2.8  SUMLEN(array())
 2.9  GET$#file 
 
 3. BASIC V whole array operations
@@ -56,7 +56,7 @@ New features in BBC BASIC (Z80) version 5.00, May 2024:
 5. Extensions to Acorn's BASIC V, compatible with BB4W, BBCSDL and BBCTTY
 
 5.1  EXIT REPEAT / WHILE / FOR [var]
-5.2  Address-of operator ^
+5.2  Address-of operator (^)
 5.3  Byte variables and arrays (& suffix)
 5.4  'BY len' and 'TO term' qualifiers to GET$#file
 5.5  ELSE IF <condition> THEN; (trailing semicolon)

@@ -1,12 +1,12 @@
-m80 dist,dist.lst=dist.z80 /z
-m80 main,main.lst=main.z80 /z
-m80 exec,exec.lst=exec.z80 /z
-m80 eval,eval.lst=eval.z80 /z
-m80 asmb,asmb.lst=asmb.z80 /z
-m80 cmos,cmos.lst=cmos.z80 /z
-m80 math,math.lst=math.z80 /z
-m80 hook,hook.lst=hook.z80 /z
-m80 data,data.lst=data.z80 /z
+z80asm dist/rmf
+z80asm main/rmf
+z80asm exec/rmf
+z80asm eval/rmf
+z80asm asmb/rmf
+z80asm cmos/rmf
+z80asm math/rmf
+z80asm hook/rmf
+z80asm data/rmf
 era bbcbasic.com
 link bbcbasic=dist,main,exec,eval,asmb,math,hook,cmos,/p:4B00,data
 hexbin bbcbasic
