@@ -1,4 +1,4 @@
-New features in BBC BASIC (Z80) version 5.00, May 2024:
+New features in BBC BASIC (Z80) version 5.00, June 2024:
 
 1. BASIC V statements
 
@@ -38,7 +38,10 @@ New features in BBC BASIC (Z80) version 5.00, May 2024:
 3.8  Make a whole array LOCAL
 3.9  DIM a LOCAL array (on the stack) + 
 
-* String array expressions A$() = B$() + C$() are not currently supported.
+* String array expressions are not currently supported, instead of using
+     a$() = b$() + c$()  use  a$() = b$() : a$() += c$()
+  The use of EVAL with whole-array expressions is not currently supported.
+
 + LOCAL string arrays should be initialised to their maximum needed length
   to eliminate the risk of a memory leak each time the PROC/FN is called:
      LOCAL a$() : DIM a$(size%) : a$() = STRING$(max%, "a") : a$() = ""
