@@ -10,8 +10,8 @@ More details of the features added in version 5.00 can be found in the file WHAT
 
 The files in green constitute the generic BBC BASIC interpreter which is shared by all the
 editions, it (just!) fits in 16 Kbytes so could be held in a ROM of this size.  The files in
-the blue box are used to build the CP/M edition.  The files in the red box are used to build
-the Acorn Z80 Second Processor edition (in principle: the source files are on an 8" floppy!)
+the blue box are used to build the generic CP/M edition.  The files in the red box are used
+to build the Acorn Z80 Second Processor edition.
 
 Note that the name 'BBC BASIC' is used by permission of the British Broadcasting Corporation
 and is not transferrable to a derived or forked work.

@@ -1,0 +1,13 @@
+z80asm main/rmf
+z80asm exec/rmf
+z80asm eval/rmf
+z80asm asmb/rmf
+z80asm math/rmf
+z80asm amos/rmf
+z80asm acorn/rmf
+z80asm data/rmf
+era bbctube.com
+link bbctube=/p:0100,main,exec,eval,asmb,math,acorn,amos,/p:4B00,data
+hexbin bbctube
+era bbctube.hex
+ren bbctube.com=bbctube.bin

@@ -50,17 +50,18 @@ New features in BBC BASIC (Z80) version 5.00, June 2024:
 
 4.1  Bit-shifts <<, >>, >>>
 4.2  Floating-point indirection (|)
-4.3  RETURNed parameters from FN/PROC
-4.4  Compound assignment (+=, -=, *=, /= etc.)
-4.5  Assigning to a sub-string: LEFT$()=, MID$()= , RIGHT$()=
-4.6  Hooks for CIRCLE,ELLIPSE,FILL,LINE,MOUSE,ORIGIN,RECTANGLE,TINT,SYS,WAIT
-4.7  Hooks for WIDTH function, TINT function, MODE function
+4.3  Additional VDU delimiter '|' 
+4.4  RETURNed parameters from FN/PROC
+4.5  Compound assignment (+=, -=, *=, /= etc.)
+4.6  Assigning to a sub-string: LEFT$()=, MID$()= , RIGHT$()=
+4.7  Hooks for CIRCLE,ELLIPSE,FILL,LINE,MOUSE,ORIGIN,RECTANGLE,SYS,TINT,WAIT
+4.8  Hooks for MODE function, TINT function, WIDTH function
 
 5. Extensions to Acorn's BASIC V, compatible with BB4W, BBCSDL and BBCTTY
 
 5.1  EXIT REPEAT / WHILE / FOR [var]
 5.2  Address-of operator (^)
-5.3  Byte variables and arrays (& suffix)
+5.3  Byte (unsigned 8-bit) variables and arrays (& suffix)
 5.4  'BY len' and 'TO term' qualifiers to GET$#file
 5.5  ELSE IF <condition> THEN; (trailing semicolon)
 5.6  == synonymous with = in comparisons
