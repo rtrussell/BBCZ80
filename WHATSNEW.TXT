@@ -66,6 +66,7 @@ New features in BBC BASIC (Z80) version 5.00, June 2024:
 5.5  ELSE IF <condition> THEN; (trailing semicolon)
 5.6  == synonymous with = in comparisons
 5.7  DIM a global array inside a FN/PROC (use RETURN)
+5.8  DIM var LOCAL -1 returns the stack pointer, even outside a FN/PROC
 
 Note: The token for PUT has changed from &CE in version 3 to &0E in version 5.
 If this token is present in existing programs it will list as ENDWHILE rather

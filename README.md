@@ -1,8 +1,9 @@
 # BBCZ80
 BBC BASIC (Z80) v5 is an implementation of the BBC BASIC programming language for the Z80 CPU.
 It is largely compatible with Acorn's ARM BASIC V but with a few language extensions based on
-features of 'BBC BASIC for Windows' and 'BBC BASIC for SDL 2.0'. These extensions include the
-EXIT statement, the address-of operator (^) and byte (8-bit) variables and arrays (& suffix).
+features of 'BBC BASIC for Windows' and 'BBC BASIC for SDL 2.0'.  These extensions include the
+EXIT statement, the address-of operator (^) and byte (unsigned 8-bit) variables and arrays
+(& suffix character).
 
 More details of the features added in version 5.00 can be found in the file WHATSNEW.TXT.
 
