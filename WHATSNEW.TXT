@@ -55,7 +55,7 @@ New features in BBC BASIC (Z80) version 5.00, June 2024:
 4.5  Compound assignment (+=, -=, *=, /= etc.)
 4.6  Assigning to a sub-string: LEFT$()=, MID$()= , RIGHT$()=
 4.7  Hooks for CIRCLE,ELLIPSE,FILL,LINE,MOUSE,ORIGIN,RECTANGLE,SYS,TINT,WAIT
-4.8  Hooks for MODE function, TINT function, WIDTH function
+4.8  Hooks for ON, OFF, MODE function, TINT function, WIDTH function
 
 5. Extensions to Acorn's BASIC V, compatible with BB4W, BBCSDL and BBCTTY
 

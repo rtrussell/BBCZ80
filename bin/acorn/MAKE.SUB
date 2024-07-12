@@ -7,7 +7,7 @@ z80asm amos/rmf
 z80asm acorn/rmf
 z80asm data/rmf
 era bbctube.com
-link bbctube=/p:0100,main,exec,eval,asmb,math,acorn,amos,/p:4B00,data
+link bbctube=/p:0100,main,exec,eval,asmb,math,acorn,amos,/p:4C00,data
 hexbin bbctube
 era bbctube.hex
 ren bbctube.com=bbctube.bin
