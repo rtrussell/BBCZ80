@@ -1,4 +1,4 @@
-New features in BBC BASIC (Z80) version 5.00, June 2024:
+New features in BBC BASIC (Z80) version 5.00, January 2025:
 
 1. BASIC V statements
 
@@ -54,8 +54,9 @@ New features in BBC BASIC (Z80) version 5.00, June 2024:
 4.4  RETURNed parameters from FN/PROC
 4.5  Compound assignment (+=, -=, *=, /= etc.)
 4.6  Assigning to a sub-string: LEFT$()=, MID$()= , RIGHT$()=
-4.7  Hooks for CIRCLE,ELLIPSE,FILL,LINE,MOUSE,ORIGIN,RECTANGLE,SYS,TINT,WAIT
-4.8  Hooks for ON, OFF, MODE function, TINT function, WIDTH function
+4.7  Hooks for CIRCLE, ELLIPSE, FILL, LINE, ORIGIN, RECTANGLE (graphics)
+4.8  Hooks for MOUSE, OFF, ON, SYS, TINT, WAIT (statements)
+4.9  Hooks for MODE function, TINT function, WIDTH function
 
 5. Extensions to Acorn's BASIC V, compatible with BB4W, BBCSDL and BBCTTY
 
@@ -67,6 +68,7 @@ New features in BBC BASIC (Z80) version 5.00, June 2024:
 5.6  == synonymous with = in comparisons
 5.7  DIM a global array inside a FN/PROC (use RETURN)
 5.8  DIM var LOCAL -1 returns the stack pointer, even outside a FN/PROC
+5.9  RESTORE LOCAL restores local variables without exiting the FN/PROC
 
 Note: The token for PUT has changed from &CE in version 3 to &0E in version 5.
 If this token is present in existing programs it will list as ENDWHILE rather
